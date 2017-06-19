@@ -212,8 +212,7 @@ namespace RobotQQ.Core
             Debug.WriteLine("获取远程资源：" + url);
             //地址
             item.URL = url;
-            //保存上一个来源
-            myRefer = item.Referer;
+          
             //设置当前的来源
             if (!string.IsNullOrEmpty(refer)) item.Referer = refer;
             //设置返回类型
